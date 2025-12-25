@@ -1,0 +1,62 @@
+{
+  "name": "@semanticintent/pace-pattern",
+  "version": "1.0.1",
+  "description": "PACE Pattern - AI-native storefront framework (Product, About, Chat, Executive Summary)",
+  "main": "dist/pace.min.js",
+  "module": "dist/pace.esm.js",
+  "types": "dist/pace.d.ts",
+  "files": [
+    "dist",
+    "src",
+    "examples"
+  ],
+  "keywords": [
+    "pace",
+    "pace-pattern",
+    "ai",
+    "storefront",
+    "e-commerce",
+    "claude",
+    "anthropic",
+    "ux-pattern",
+    "ai-native",
+    "developer-experience"
+  ],
+  "author": "Semantic Intent",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/semanticintent/pace.js"
+  },
+  "homepage": "https://pace-pattern.dev",
+  "bugs": {
+    "url": "https://github.com/semanticintent/pace.js/issues"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "rollup -c",
+    "preview": "vite preview",
+    "test": "vitest",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "rollup": "^4.9.0",
+    "vite": "^5.0.0",
+    "vitest": "^1.0.0"
+  },
+  "peerDependencies": {
+    "alpinejs": "^3.13.0"
+  },
+  "peerDependenciesMeta": {
+    "alpinejs": {
+      "optional": true
+    }
+  },
+  "zenodo": {
+    "doi": "10.5281/zenodo.18049371",
+    "title": "PACE Pattern: Product, About, Chat, Executive Summary",
+    "version": "1.0.1"
+  }
+}

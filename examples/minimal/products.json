@@ -1,0 +1,62 @@
+{
+  "products": [
+    {
+      "id": "chirp-mcp",
+      "name": "Chirp MCP",
+      "tagline": "Twitter/X integration for Claude",
+      "category": "mcp_servers",
+      "price_display": "free",
+      "icon": "🐦",
+      "description": "## Chirp MCP\n\nConnect Claude to Twitter/X for seamless social media integration.\n\n### Features\n- Post tweets\n- Read timelines\n- Search tweets\n- Manage DMs",
+      "action": "github",
+      "action_url": "https://github.com/semanticintent/chirp-mcp"
+    },
+    {
+      "id": "plunge-mcp",
+      "name": "Plunge MCP",
+      "tagline": "Deep research intelligence",
+      "category": "mcp_servers",
+      "price_display": "free",
+      "icon": "🤿",
+      "description": "## Plunge MCP\n\nDeep dive research tool for comprehensive analysis.\n\n### Capabilities\n- Multi-source research\n- Citation tracking\n- Report generation",
+      "action": "github",
+      "action_url": "https://github.com/semanticintent/plunge-mcp"
+    },
+    {
+      "id": "stratiqx",
+      "name": "StratIQX",
+      "tagline": "Strategic intelligence reports",
+      "category": "services",
+      "price_display": "$5/report",
+      "icon": "🎯",
+      "description": "## StratIQX\n\nAI-powered strategic intelligence reports tailored to your needs.\n\n### What You Get\n- Comprehensive analysis\n- Visual infographics\n- Actionable insights",
+      "action": "demo",
+      "action_url": "https://stratiqx.com"
+    },
+    {
+      "id": "playiqx-blueprint",
+      "name": "PlayIQX Blueprint",
+      "tagline": "Product strategy playbooks",
+      "category": "services",
+      "price_display": "free",
+      "icon": "📘",
+      "description": "## PlayIQX Blueprint\n\nReady-to-use product strategy playbooks.\n\n### Includes\n- Market analysis templates\n- Go-to-market strategies\n- Execution frameworks",
+      "action": "demo",
+      "action_url": "https://playiqx.com"
+    }
+  ],
+  "categories": [
+    {
+      "id": "mcp_servers",
+      "label": "MCP Servers",
+      "icon": "ph-plug",
+      "color": "#667eea"
+    },
+    {
+      "id": "services",
+      "label": "Services",
+      "icon": "ph-briefcase",
+      "color": "#764ba2"
+    }
+  ]
+}

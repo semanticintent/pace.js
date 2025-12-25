@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PACE.js - Minimal Example</title>
+
+  <!-- Phosphor Icons -->
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+  <!-- PACE.js CSS -->
+  <link rel="stylesheet" href="../../dist/pace.min.css">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #f8f9fa;
+    }
+
+    #pace-app {
+      width: 100%;
+      height: 100vh;
+    }
+  </style>
+</head>
+<body>
+  <div id="pace-app"></div>
+
+  <!-- PACE.js -->
+  <script type="module">
+    import { PACE } from '../../src/core/pace.js';
+
+    // Sample products
+    const products = [
+      {
+        id: 'chirp-mcp',
+        name: 'Chirp MCP',
+        tagline: 'Twitter/X integration for Claude',
+        category: 'mcp_servers',
+        price_display: 'free',
+        description: '## Chirp MCP\n\nConnect Claude to Twitter/X for seamless social media integration.',
+        action: 'github',
+        action_url: 'https://github.com/semanticintent/chirp-mcp'
+      },
+      {
+        id: 'plunge-mcp',
+        name: 'Plunge MCP',
+        tagline: 'Deep research intelligence',
+        category: 'mcp_servers',
+        price_display: 'free',
+        description: '## Plunge MCP\n\nDeep dive research tool for comprehensive analysis.',
+        action: 'github',
+        action_url: 'https://github.com/semanticintent/plunge-mcp'
+      },
+      {
+        id: 'stratiqx',
+        name: 'StratIQX',
+        tagline: 'Strategic intelligence reports',
+        category: 'services',
+        price_display: '$5/report',
+        description: '## StratIQX\n\nAI-powered strategic intelligence reports tailored to your needs.',
+        action: 'demo',
+        action_url: 'https://stratiqx.com'
+      }
+    ];
+
+    // Initialize PACE
+    const pace = new PACE({
+      container: '#pace-app',
+      products: products,
+
+      about: {
+        title: 'About MillPond',
+        subtitle: 'Cormorant Foraging Tools for Claude',
+        description: 'We build AI-native tools and services for the modern developer.',
+        sections: [
+          {
+            title: 'Our Mission',
+            content: '<p>Empowering developers with AI-first tools that enhance productivity and creativity.</p>'
+          },
+          {
+            title: 'PACE Pattern',
+            content: '<p>This platform is built using the <strong>PACE Pattern</strong> - an AI-native UX framework.</p>'
+          }
+        ]
+      },
+
+      chat: {
+        enabled: true,
+        provider: 'claude',
+        placeholder: 'Ask about our products...',
+        subtitle: 'AI-powered product guide',
+        suggestions: [
+          'What MCP servers do you offer?',
+          'Tell me about StratIQX',
+          'How do I get started?'
+        ]
+      },
+
+      executiveSummary: {
+        enabled: true,
+        updateInterval: 10000 // Update every 10 seconds for demo
+      },
+
+      theme: {
+        primaryColor: '#667eea',
+        accentColor: '#764ba2',
+        font: 'Inter, system-ui, sans-serif'
+      }
+    });
+
+    // Mount to DOM
+    pace.mount();
+
+    // Listen to events
+    pace.on('ready', () => {
+      console.log('✅ PACE is ready!');
+    });
+
+    pace.on('navigate', ({ detail }) => {
+      console.log('🧭 Navigated to:', detail.view);
+    });
+
+    // Make available globally for debugging
+    window.pace = pace;
+  </script>
+</body>
+</html>
