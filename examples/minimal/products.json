@@ -1,62 +1,108 @@
 {
   "products": [
     {
-      "id": "chirp-mcp",
-      "name": "Chirp MCP",
-      "tagline": "Twitter/X integration for Claude",
-      "category": "mcp_servers",
+      "id": "pace-pattern",
+      "name": "PACE Pattern",
+      "tagline": "AI-native storefront framework",
+      "category": "frameworks",
       "price_display": "free",
-      "icon": "🐦",
-      "description": "## Chirp MCP\n\nConnect Claude to Twitter/X for seamless social media integration.\n\n### Features\n- Post tweets\n- Read timelines\n- Search tweets\n- Manage DMs",
-      "action": "github",
-      "action_url": "https://github.com/semanticintent/chirp-mcp"
-    },
-    {
-      "id": "plunge-mcp",
-      "name": "Plunge MCP",
-      "tagline": "Deep research intelligence",
-      "category": "mcp_servers",
-      "price_display": "free",
-      "icon": "🤿",
-      "description": "## Plunge MCP\n\nDeep dive research tool for comprehensive analysis.\n\n### Capabilities\n- Multi-source research\n- Citation tracking\n- Report generation",
-      "action": "github",
-      "action_url": "https://github.com/semanticintent/plunge-mcp"
-    },
-    {
-      "id": "stratiqx",
-      "name": "StratIQX",
-      "tagline": "Strategic intelligence reports",
-      "category": "services",
-      "price_display": "$5/report",
       "icon": "🎯",
-      "description": "## StratIQX\n\nAI-powered strategic intelligence reports tailored to your needs.\n\n### What You Get\n- Comprehensive analysis\n- Visual infographics\n- Actionable insights",
-      "action": "demo",
-      "action_url": "https://stratiqx.com"
+      "description": "## PACE Pattern\n\nThe framework you're using right now! Build AI-native storefronts in minutes.\n\n### Features\n- 15KB lightweight\n- Zero dependencies\n- Framework agnostic\n- AI-powered chat\n- Executive summary insights\n\n### Get Started\n```bash\nnpm install @semanticintent/pace-pattern\n```",
+      "action": "github",
+      "action_url": "https://github.com/semanticintent/pace.js"
     },
     {
-      "id": "playiqx-blueprint",
-      "name": "PlayIQX Blueprint",
-      "tagline": "Product strategy playbooks",
-      "category": "services",
+      "id": "millpond-storefront",
+      "name": "MillPond Storefront",
+      "tagline": "Reference implementation of PACE",
+      "category": "examples",
+      "price_display": "free",
+      "icon": "🏪",
+      "description": "## MillPond Storefront\n\nThe official reference implementation showing PACE.js in production.\n\n### What's Included\n- Full PACE implementation\n- Cormorant Foraging tools\n- MCP server catalog\n- AI-powered product discovery\n\n### Live Demo\nSee it in action at millpond.dev",
+      "action": "github",
+      "action_url": "https://github.com/semanticintent/millpond-storefront"
+    },
+    {
+      "id": "example-mcp-server",
+      "name": "Your MCP Server",
+      "tagline": "Example product - replace with yours!",
+      "category": "mcp_servers",
+      "price_display": "free",
+      "icon": "🔌",
+      "description": "## Your MCP Server\n\nThis is a placeholder product to show how MCP servers can be listed.\n\n### Replace with your own:\n```json\n{\n  \"id\": \"my-mcp-server\",\n  \"name\": \"My MCP Server\",\n  \"tagline\": \"Does something cool\",\n  \"category\": \"mcp_servers\",\n  \"price_display\": \"free\",\n  \"action\": \"github\",\n  \"action_url\": \"https://github.com/you/repo\"\n}\n```",
+      "action": "github",
+      "action_url": "https://github.com/semanticintent/pace.js#product-format"
+    },
+    {
+      "id": "example-tool",
+      "name": "Your AI Tool",
+      "tagline": "Example tool - customize this!",
+      "category": "tools",
+      "price_display": "$10/month",
+      "icon": "🛠️",
+      "description": "## Your AI Tool\n\nThis is a placeholder for paid tools/services.\n\n### Common use cases:\n- SaaS products\n- AI services\n- API access\n- Premium features\n\n### Edit this product:\nSee `examples/minimal/products.json`",
+      "action": "demo",
+      "action_url": "https://github.com/semanticintent/pace.js/tree/main/examples"
+    },
+    {
+      "id": "example-blueprint",
+      "name": "Strategy Blueprint",
+      "tagline": "Example blueprint template",
+      "category": "blueprints",
       "price_display": "free",
       "icon": "📘",
-      "description": "## PlayIQX Blueprint\n\nReady-to-use product strategy playbooks.\n\n### Includes\n- Market analysis templates\n- Go-to-market strategies\n- Execution frameworks",
-      "action": "demo",
-      "action_url": "https://playiqx.com"
+      "description": "## Strategy Blueprint\n\nPlaceholder for templates, blueprints, or playbooks.\n\n### Great for:\n- Documentation templates\n- Strategy frameworks\n- Best practice guides\n- Starter kits\n\n### How to use:\n1. Fork this repo\n2. Edit `products.json`\n3. Add your products\n4. Deploy!",
+      "action": "download",
+      "action_url": "https://github.com/semanticintent/pace.js/archive/refs/heads/main.zip"
+    },
+    {
+      "id": "custom-product",
+      "name": "Your Product Here",
+      "tagline": "Add unlimited products!",
+      "category": "custom",
+      "price_display": "custom",
+      "icon": "✨",
+      "description": "## Your Product Here\n\nPACE.js supports unlimited products in any category.\n\n### Product types you can add:\n- 🔌 MCP Servers\n- 🛠️ Tools & Services  \n- 📘 Templates & Blueprints\n- 🎓 Courses & Training\n- 📦 Packages & Libraries\n- 🎨 Themes & Plugins\n\n### Next steps:\n1. Read the [documentation](https://github.com/semanticintent/pace.js)\n2. Customize this example\n3. Deploy your storefront\n4. Share with the community!",
+      "action": "github",
+      "action_url": "https://github.com/semanticintent/pace.js"
     }
   ],
   "categories": [
     {
-      "id": "mcp_servers",
-      "label": "MCP Servers",
-      "icon": "ph-plug",
+      "id": "frameworks",
+      "label": "Frameworks",
+      "icon": "ph-package",
       "color": "#667eea"
     },
     {
-      "id": "services",
-      "label": "Services",
-      "icon": "ph-briefcase",
-      "color": "#764ba2"
+      "id": "examples",
+      "label": "Examples",
+      "icon": "ph-lightbulb",
+      "color": "#f59e0b"
+    },
+    {
+      "id": "mcp_servers",
+      "label": "MCP Servers",
+      "icon": "ph-plug",
+      "color": "#10b981"
+    },
+    {
+      "id": "tools",
+      "label": "Tools & Services",
+      "icon": "ph-wrench",
+      "color": "#8b5cf6"
+    },
+    {
+      "id": "blueprints",
+      "label": "Blueprints",
+      "icon": "ph-book-open",
+      "color": "#ec4899"
+    },
+    {
+      "id": "custom",
+      "label": "Custom",
+      "icon": "ph-sparkle",
+      "color": "#6366f1"
     }
   ]
 }
