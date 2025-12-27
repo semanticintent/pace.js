@@ -10,7 +10,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub Stars](https://img.shields.io/github/stars/semanticintent/pace.js?style=social)](https://github.com/semanticintent/pace.js)
 
-[Quick Start](#-quick-start) • [Examples](#-examples) • [Documentation](#-documentation) • [Demo](https://millpond.dev)
+[Quick Start](#-quick-start) • [Examples](#-examples) • [Documentation](#-documentation) • [Demo](https://demo.millpond.dev)
 
 </div>
 
@@ -370,7 +370,8 @@ pace.setTheme({
 
 **MillPond Storefront** is the official reference implementation of PACE 1.0.1:
 
-- 🔗 **Live Demo**: [millpond.dev](https://millpond.dev)
+- 🎯 **Interactive Demo**: [demo.millpond.dev](https://demo.millpond.dev) - PACE 1.0.1 pattern showcase
+- 🏪 **Production Site**: [millpond.dev](https://millpond.dev) - Live storefront with AI chat
 - 🔗 **Source Code**: [github.com/semanticintent/millpond-storefront](https://github.com/semanticintent/millpond-storefront)
 
 ---

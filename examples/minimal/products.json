@@ -18,7 +18,7 @@
       "category": "examples",
       "price_display": "free",
       "icon": "🏪",
-      "description": "## MillPond Storefront\n\nThe official reference implementation showing PACE.js in production.\n\n### What's Included\n- Full PACE implementation\n- Cormorant Foraging tools\n- MCP server catalog\n- AI-powered product discovery\n\n### Live Demo\nSee it in action at millpond.dev",
+      "description": "## MillPond Storefront\n\nThe official reference implementation showing PACE.js in production.\n\n### What's Included\n- Full PACE implementation\n- Cormorant Foraging tools\n- MCP server catalog\n- AI-powered product discovery\n\n### Interactive Demo\nExplore the PACE 1.0.1 pattern at demo.millpond.dev",
       "action": "github",
       "action_url": "https://github.com/semanticintent/millpond-storefront"
     },
